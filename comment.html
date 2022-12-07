@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Princess</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="style1.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <a href="#" class="logo">Prin<span>cess</span></a>
+
+   <nav class="navbar">
+      <a href="index.html">home</a>
+      <a href="about.html">about</a>
+      <a href="services.html">services</a>
+      <a href="bridal.html">Bridal</a>
+      <a href="ACADEMY.html">Academy</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="comment.html">Comment Now</a>
+   </nav>
+
+ 
+</header>
+
+<div class="contact-info">
+
+   <div id="close-contact-info" class="fas fa-times"></div>
+
+   <div class="info">
+      <i class="fas fa-phone"></i>
+      <h3>phone number</h3>
+      <p>+91 9488477844</p>
+   </div>
+
+   <div class="info">
+      <i class="fas fa-envelope"></i>
+      <h3>email address</h3>
+      <p>princessbeautyloungee@gmail.com</p>
+   </div>
+
+   <div class="info">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>office address</h3>
+      <p>302, Main Road, Post Office, Nellikuppam-607105</p>
+   </div>
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+   </div>
+
+</div>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <section class="swiper-slide slide" style="background: url(home.JPG) no-repeat;">
+            
+         </section>
+      </div>
+   </div>
+
+</section>
+
+   <form>
+        <div class="input">
+            <div class="input-top">
+                <input required type="text" id="name" placeholder="Name">
+                <input required type="email" id="email" placeholder="Email">
+            </div>
+            <textarea required placeholder="Your Comment" id="comment" cols="30" rows="10"></textarea>
+            <button id="button" type="submit" onclick="myFunction();">Post a Comment</button>
+    </form>
+    <ul id="comment-list">
+    <!-- data are comes from local storage -->
+    </ul>
+    </div>
+</body>
+</html>

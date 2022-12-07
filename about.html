@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Princess</title>
+   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">Prin<span>cess</span></a>
+ 
+    <nav class="navbar">
+       <a href="index.html">home</a>
+       <a href="about.html">about</a>
+       <a href="services.html">services</a>
+       <a href="bridal.html">Bridal</a>
+       <a href="ACADEMY.html">Academy</a>
+       <a href="gallery.html">Gallery</a>
+       <a href="comment.html">Contact</a>
+    </nav>
+ 
+    <div class="icons">
+       <div id="menu-btn" class="fas fa-bars"></div>
+       <div id="info-btn" class="fas fa-info-circle"></div>
+       <div id="search-btn" class="fas fa-search"></div>
+       <div id="login-btn" class="fas fa-user"></div>
+    </div>
+ 
+    <form action="" class="search-form">
+       <input type="search" name="" placeholder="search here..." id="search-box">
+       <label for="search-box" class="fas fa-search"></label>
+    </form>
+ 
+    <form action="" class="login-form">
+       <h3>Give your Valuable Comments</h3>
+      
+       <input type="submit" value="Click Here" class="btn">
+       <p><a href="comment.html"></a></p>
+    </form>
+ 
+ </header>
+<div class="contact-info">
+
+   <div id="close-contact-info" class="fas fa-times"></div>
+
+   <div class="info">
+      <i class="fas fa-phone"></i>
+      <h3>phone number</h3>
+      <p>+91 9488477844</p>
+   </div>
+
+   <div class="info">
+      <i class="fas fa-envelope"></i>
+      <h3>email address</h3>
+      <p>princessbeautyloungee@gmail.com</p>
+   </div>
+
+   <div class="info">
+      <i class="fas fa-map-marker-alt"></i>
+      <h3>office address</h3>
+      <p>302, Main Road, Post Office, Nellikuppam-607105</p>
+   </div>
+
+   <div class="share">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-twitter"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-linkedin"></a>
+   </div>
+
+</div>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider" data-aos="flip-right">
+
+      <div class="swiper-wrapper">
+
+         <section class="swiper-slide slide" style="background: url(home.JPG) no-repeat;">
+            
+         </section>
+      </div>
+   </div>
+
+</section>
+
+<!-- home section ends -->
+<!-- about section starts  -->
+
+<section class="about" id="about" data-aos="zoom-in-down">
+
+    <h1 class="heading"> <i class="fas fa-quote-left"></i> about us <i class="fas fa-quote-right"></i> </h1>
+    
+    <div class="row">
+    
+        <div class="image">
+            <img src="ABOUT.jpeg" alt="">
+        </div>
+    
+        <div class="content">
+            <h3>Princess Beauty Lounge</h3>
+<p>
+    Princess Beauty Lounge in Nellikuppam, Cuddalore is a one-stop beauty destination for all your self-pampering needs. Among the many Beauty Parlours For Bridal, in the city, it offers a wide range of beauty services like Facial, Pedicure, Bridal Package, Hair Treatment, etc. Ever since its establishment in 2012,
+     Princess Beauty Lounge has been delivering top-notch services to their clients.
+</p>
+<p>Be it getting ready for a special occasion or pampering yourself with a grooming session, beauty parlours help you look your best. With well-trained beauticians who have years of industry experience, beauty parlours in Cuddalore are all about giving the much sought-after professional beauty care to clients.</p>
+        </div>
+    
+    </div>
+    
+    <div class="box-container">
+    
+        <div class="box">
+            <i class="fas fa-users"></i>
+            <h3>500+</h3>
+            <p>Clients</p>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-star"></i>
+            <h3>75+</h3>
+            <p>Services</p>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-users"></i>
+            <h3>50+</h3>
+            <p>Students</p>
+        </div>
+    
+        <div class="box">
+            <i class="fas fa-info-circle"></i>
+            <h3>100+</h3>
+            <p>Happy Clients</p>
+        </div>
+    
+    </div>
+    <style>
+        .about .row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.about .row .image{
+    flex:1 1 40rem;
+    padding:2rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+
+.about .row .content{
+    flex:1 1 40rem;
+    padding:2rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color:var(--green);
+}
+
+.about .row .content p{
+    font-size: 1.5rem;
+    color:#666;
+    padding:1rem 0;
+}
+
+.about .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .box-container .box{
+    padding:2rem 1rem;
+    text-align: center;
+    border:.2rem solid var(--green);
+    flex:1 1 20rem;
+    margin:2rem;
+}
+
+.about .box-container .box i{
+    color:var(--green);
+    font-size: 4rem;
+}
+
+.about .box-container .box h3{
+    color:#333;
+    font-size: 2.5rem;
+    padding:1rem 0;
+}
+
+.about .box-container .box p{
+    color:#666;
+    font-size: 1.7rem;
+}
+
+    </style>
+    
+    </section>
+    
+    <!-- about section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+    
+        <div class="box">
+            <a href="#" class="logo"><i class="fas fa-building"></i>Princess</a>
+        </div>
+    
+        <div class="box">
+            <h3 class="share">share</h3>
+            <a href="#">facebook</a>
+            <a href="#">twitter</a>
+            <a href="#">instagram</a>
+        </div>
+    
+        <div class="box">
+            <h3 class="letter">Comments</h3>
+            <form action="">
+                <input type="email" placeholder="enter your email">
+                <button type="submit" class="fas fa-paper-plane"></button>
+            </form>
+        </div>
+    
+    </div>
+    
+    <h1 class="credit">created by <span>ALMUBIN.SYED</span> | all rights reserved. </h1>
+    <style>
+        .footer{
+    background:#333;
+}
+
+.footer .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    margin:0 auto;
+}
+
+.footer .box-container .box{
+    margin:2rem;
+    flex:1 1 25rem;
+}
+
+.footer .box-container .box .logo{
+    font-size: 3rem;
+    color:var(--green);
+}
+
+.footer .box-container .box p{
+    font-size: 1.7rem;
+    color:#ccc;
+    padding:1rem 0;
+}
+
+.footer .box-container .box .share{
+    text-align: center;
+    font-size: 3rem;
+    color:#fff;
+}
+
+.footer .box-container .box:nth-child(2) a{
+    text-align: center;
+    font-size: 1.7rem;
+    color:#eee;
+    display: block;
+    padding:.5rem 0;
+}
+
+.footer .box-container .box:nth-child(2) a:hover{
+    text-decoration: underline;
+}
+
+.footer .box-container .box .letter{
+    font-size: 3rem;
+    color:#fff;
+}
+
+.footer .box-container .box form input[type="email"]{
+    padding:0 1rem;
+    outline:none;
+    border:.2rem solid var(--green);
+    background:none;
+    font-size: 1.7rem;
+    color:#fff;
+    height:4rem;
+    width:74%;
+}
+
+.footer .box-container .box form button{
+    outline:none;
+    border:none;
+    background:var(--green);
+    font-size: 1.9rem;
+    color:#fff;
+    height:4rem;
+    width:25%;
+    cursor: pointer;
+}
+
+.footer .box-container .box form button:hover{
+    color:var(--green);
+    background:none;
+    border:.1rem solid var(--green);
+}
+
+.footer .credit{
+    text-align: center;
+    color:#fff;
+    font-size: 2rem;
+    width:85%;
+    margin:0 auto;
+    padding:2rem 1rem;
+    border-top: .1rem solid #ccc;
+}
+
+.footer .credit span{
+    color:var(--green);
+}
+
+
+
+
+    </style>
+    
+    </section>
+    
+    <!-- footer section ends -->
+    
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+<script>
+
+lightGallery(document.querySelector('.projects .box-container'));
+
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+   AOS.init();
+</script>
+
+</body>
+</html>
